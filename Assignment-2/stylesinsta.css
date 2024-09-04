@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sidebar {
+    height: 100vh; /* Tam ekran yüksekliği */
+    position: fixed; /* Sabit pozisyon */
+    left: 0;
+    top: 0;
+    padding: 20px;
+    background-color: white;
+    color: #0000;
+    width: 250px;
+    border-right: 1px solid #ccc;
+    overflow-y: auto; /* İçerik taşarsa kaydırma çubuğu ekler */
+}
+.logo{
+    color: black;
+}
+ul li {
+    font-size: 1rem;
+    color: black;
+}
+ul li i{
+    font-size: 1.5rem;
+    color: black;
+}
+.nav-link.active {
+    color: #000; /* Aktif link rengi */
+    font-weight: bold; /* Aktif link koyu renk */
+}
+
+.storyphoto {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 2px solid rgb(238, 39, 82);
+    margin-right: 2px;
+}
+.content {
+    margin-left: 250px; /* Sidebar genişliği kadar içerikten boşluk bırak */
+    padding: 20px;
+}
+
+.storyphotocontent {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid rgb(238, 39, 82);
+    margin-right: 2px;
+    
+}
+.d-flex i{
+    font-size: 1.5rem;
+}
